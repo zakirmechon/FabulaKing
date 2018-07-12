@@ -27,6 +27,7 @@
 .Tag {
     color: white !important;
     margin-left: 5px;
+    word-break: keep-all;
     border-radius: 2px;
     background-color: #444f72;
     padding-top: 2px;

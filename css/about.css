@@ -1,0 +1,152 @@
+.ProfileMain{
+    /* background-image: url("/img/Material-Backgrounds.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+}
+
+.MyDP img{
+    max-height:  10vh;
+}
+
+
+
+
+
+
+.SkillBox{
+  padding: 1rem;
+  
+}
+
+.SkillCol{
+  max-width: 500px;
+}
+
+.tags{
+  list-style:none;
+  background-color: aqua;
+	}	
+.tags li, .tags a{
+  margin: 5px auto;
+	float:left;
+  height:40px;
+	line-height:40px;
+	position:relative;
+	font-size:20px;
+	}	
+.tags a{
+	margin-left:20px;
+	padding:0 10px 0 12px;
+	background:#0089e0;
+	color:#fff;
+	text-decoration:none;
+	-moz-border-radius-bottomright:8px;
+	-webkit-border-bottom-right-radius:8px;	
+	border-bottom-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;	
+	border-top-right-radius:8px;	
+	}	
+.tags a:before{
+	content:"";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-20px;
+	width:0;
+	height:0;
+	border-color:transparent #0089e0 transparent transparent;
+	border-style:solid;
+	border-width:20px 20px 20px 0;		
+	}	
+.tags a:after{
+	content:"";
+	position:absolute;
+	top:10px;
+	left:0;
+	float:left;
+	width:8px;
+	height:8px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#fff;
+	-moz-box-shadow:-1px -1px 2px #004977;
+	-webkit-box-shadow:-1px -1px 2px #004977;
+	box-shadow:-1px -1px 2px #004977;
+	}		
+
+.tags a:hover{background:#555;}	
+.tags a:hover:before{border-color:transparent #555 transparent transparent;}
+
+
+
+
+
+
+
+
+
+.text {
+  margin:0px;
+  font-size: 25px;
+
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+
+  
+  font-variant: small-caps;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #ff5429;
+}

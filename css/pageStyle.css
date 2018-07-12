@@ -126,7 +126,8 @@ padding: 4px;
 }
 
 .heroPic img {
-    max-height: 60vh;
+    max-height: 30vh;
+    margin: 5rem;
 }
 
 .heroContentMain{
@@ -149,33 +150,44 @@ padding: 4px;
     margin: 0px;
     
 }
+.intro-text{
+    font-size: 25px;
+    margin: 0px;
+    color: #292d39 !important;
+    
+}
+.lead{
+    font-size: 25px;
+    color: #536088;
+    
+}
+.heroTag{
+    margin: 8px;
+    margin-left: 0px;
+}
 
 .feature {    
-    padding: 1rem;
+    padding: 3rem;
+    padding-top: 0rem;
+    text-align: center;
 }
 
 .featureText {
-    /* max-width: 450px; */
-    font-size: 1.1rem;
-    color: white;
+    max-width: 600px;
+    font-size: 20px;
+    color: #838486;
 }
 
 .featureText h1{
     color: #C0D1C7;
+    margin: 0px;
 }
 
-.featureText span {
-    inline-size: 0.8rem;
+.featureText p span {
+    color: white;
+    font-variant: small-caps;
 }
 
-.featurePic {
-    /* max-width: 250px; */
-    text-align: right;
-}
-
-.featurePic img {
-    max-height: 280px;
-}
 
 /* Feature Row Style Ends */
 

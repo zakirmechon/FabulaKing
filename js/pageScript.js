@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    PageOpen("home");
+    PageOpen("about");
 
     
     $(".page").click(function(){
@@ -22,5 +22,7 @@ $(document).ready(function(){
             $("#Container").html(result);
         }});
     };
+
+
 
 });
