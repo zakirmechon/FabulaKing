@@ -1,0 +1,38 @@
+.contact{
+    padding: 1rem;
+}
+.outBox{
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+}
+.infoBox{
+    margin: 10px;
+}
+
+.infoHead{
+    margin: 5px;
+}
+
+.infoHead span{
+    min-width: 250px;
+    padding-right: 1rem;
+    font-size: 22px;
+    color: #0396A6;
+}
+.infoHead a{
+    font-size: 20px;
+    padding-left: 1rem;
+}
+
+
+.input-group{
+    margin: 10px;
+    font-size: 22px;
+}
+
+.input-group-text{
+    min-width: 150px;
+    background-color: #0396A6;
+    color: #fff;
+}

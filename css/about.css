@@ -1,29 +1,89 @@
-.ProfileMain{
-    /* background-image: url("/img/Material-Backgrounds.jpg");
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
 
+
+.DoubleColor{
+	background-color: #0396A6;
 }
 
-.MyDP img{
-    max-height:  10vh;
+/* Skills page Style Starts */
+.skills{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.skillsMain{
+	padding: 1rem;
 }
 
-
-
-
-
-
-.SkillBox{
-  padding: 1rem;
-  
+.skillbar {	
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background: rgb(99, 209, 205);
+	height:50px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+		transition-property:width, background-color;
 }
 
-.SkillCol{
-  max-width: 500px;
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:800;
+	color:#ffffff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 
+.skillbar-title span {
+	padding:0 20px;
+	height:50px;
+	line-height:50px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+}
+
+.skillbar-bar {
+	height:50px;
+	width:0px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#2e2e2e;
+}
+
+/* Skills page Style Ends */
+
+
+
+ul,li {
+  list-style-type: none;
+}
 .tags{
   list-style:none;
   background-color: aqua;
@@ -102,9 +162,8 @@
 }
 
 .word {
-  position: absolute;
-
-  
+	position: absolute;
+	color: #0396A6;
   font-variant: small-caps;
   opacity: 0;
 }
@@ -131,22 +190,4 @@
   transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.wisteria {
-  color: #8e44ad;
-}
 
-.belize {
-  color: #2980b9;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #ff5429;
-}

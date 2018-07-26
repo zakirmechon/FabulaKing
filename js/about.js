@@ -1,4 +1,23 @@
 $(document).ready(function(){
+
+
+    $(".skillbar").each(function() {
+        $(this)
+          .find(".skillbar-bar")
+          .animate(
+            {
+              width: $(this).attr("data-percent")
+            },
+            3000
+          );
+      });
+    
+      $(".skillbar").each(function() {
+        var value = $(this)
+          .find(".skillbar-bar")
+          .attr("data-percent");
+        console.log(value);
+      });
    
 
 // <--About Page Change Color Words -->

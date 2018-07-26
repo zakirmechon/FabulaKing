@@ -1,30 +1,140 @@
-<div class="Skill row">
-        <div class="frontend col-sm">
-            <h1>Frontend</h1>
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>JSON</span>
-        </div>
-        <div class="backend col-sm">
-            <h1>Backend</h1>
-            <span>NodeJS</span>
-            <span>PHP</span>
-            <span>DBMS</span>
-            <span>AJAX</span>
-        </div>
+<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Acme|Berkshire+Swash|Signika" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"crossorigin="anonymous">
+		<title>Contact - Fabula King</title>
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript" src="/js/anime.js"></script>
 
-    </div>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
-    <div class="Skill row">
 
-            <div class="frameworks">
-                <h1>Frameworks</h1>
-                <span>Bootstrap</span>
-                <span>JQuery</span>
-                <span>ExpressJS</span>
-                <span>ReactJS</span>
-                <span>AnimeJS</span>
-            </div>
-    
-        </div>
+		<link rel="stylesheet" type="text/css" href="/css/stdStyle.css" />
+
+		<link rel="stylesheet" type="text/css" href="/css/pageStyle.css" />
+		<link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+		<script type="text/javascript" src="/js/pageScript.js"></script>
+		
+
+</head>
+<body id="ContentMain" class="container-fluid">
+
+
+<div  class="Content row">
+		<div class="Content-sub col" id="Container">
+			
+			<link rel="stylesheet" type="text/css" href="/css/contact.css" />
+			<script type="text/javascript" src="/js/contact.js"></script>
+
+			
+			<div class="hero  color2 row justify-content-center">
+
+					<div class="heroPicMain col-sm-6 align-self-center">
+						<div class="heroPic">
+							<img src="/img/magic-wand.svg">
+						</div>
+					</div>
+					<div class="heroContentMain col-sm-6 align-self-center">
+						<div class="heroContent">
+							<div class="heroText">
+								<h2>Get in touch</h2>
+								<h1>Reach us on..</h1>
+								<p>Make an inquiry for a new project.</p>
+							</div>
+			
+						</div>
+					   
+					</div>
+			</div>
+			
+
+			<div class="color3 banner row  justify-content-center">
+				<div class="bannerText col-sm-6 align-self-center">
+						<h1>Why should i prefer you ?</h1>
+				<p>Interactive <span>web designer and developer</span> with the passion for <span>creativity</span>, we are well-poised to help <span>your business</span> to make a mark on internet.</p>
+				<div class="btn innerLink" role="about"><i class="fas fa-hands-helping"></i>let me help you</div>
+					</div>
+			</div>
+
+
+
+			
+    <!-- Contact Page Code -->
+    <div class="contact color4 row justify-content-center" id="contact">
+			
+			<div class="outBox boxshadow color2 col-sm-4 align-self-center">
+					<h1>Enquiry!</h1>
+				<div class="infoBox">
+					<div class="infoHead">
+						<span>E-Mail </span>:
+						<a>justme@gamil.com</a>
+					</div>
+					<div class="infoHead">
+						<span>Phone </span>:
+						<a>+91 9629180060</a>
+					</div>
+				</div>
+			</div>
+			<div class="outBox col-sm-4  align-self-center">
+				<div class="inBox" id="formEnquiry">
+					
+					<form>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="">Name</span>
+							</div>
+							<input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+	
+						</div>
+	
+						<div class="input-group">
+	
+							<div class="input-group-prepend">
+								<span class="input-group-text">Email</span>
+							</div>
+							<input type="text" class="form-control" id="email" placeholder="Enter Email">
+						</div>
+	
+						
+	
+						<div class="input-group">
+	
+							<div class="input-group-prepend">
+								<span class="input-group-text">Phone</span>
+							</div>
+							<input type="text" class="form-control" id="phone" placeholder="Enter Mobile Number">
+						</div>
+	
+						<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text">Subject</span>
+								</div>
+								<input type="text" class="form-control" id="subject" placeholder="Enter Short Subject">
+		
+							</div>
+	
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="">Msg</span>
+							</div>
+							<textarea class="form-control" id="content" rows="3" placeholder="Enter Your Massage"></textarea>
+						</div>
+	
+						<a class="btn" onclick="updateMsg()" id="postClick"><i class="fas fa-share"></i>Send a Msg</a>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		
+
+
+
+
+		</div>
+</div>
+
+</body>

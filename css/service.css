@@ -1,0 +1,62 @@
+
+/* Servie page Style Starts */
+.service{
+  min-height: 350px;
+  padding: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  /* background: -webkit-linear-gradient(top, #DAEDE2 50% ,#FFFEF1 50%); */
+}
+.serviceMain{
+  margin: auto;
+}
+.box{
+  min-width: 250px;
+  max-width: 300px;
+  margin:10px auto;
+  border-radius: 1rem;
+  background: rgb(99, 209, 205);
+}
+
+.serviceHead{
+  text-align: center;
+}
+
+
+.serviceHead h2{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.serviceHead img{
+  max-height: 10vw;
+  margin-top: 15px;
+}
+
+
+.serviceContent{
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.serviceContent a{
+  margin: auto;
+  background-color: #0396A6;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 5px;
+     padding-bottom: 5px;
+     -webkit-box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+     -moz-box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+     box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
+}
+
+.serviceContent a:last-child{
+  margin-bottom:30px;
+}
+/* Servie page Style Ends */

@@ -2,27 +2,38 @@ body {
     margin: 0px;
     font-size: 16px;
     font-weight: 500;
-    /* font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
-    color: #333745;
+    cursor: context-menu;
+    color: #292d39;
     font-family: 'Acme', sans-serif;
+
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+           user-select: none; /* Non-prefixed version, currently
+                                 supported by Chrome and Opera */
 }
 
-.MainArea{
-    min-height: 90vh;
-}
+
+
 /* Nav Bar Style Starts */
 
 .navBar {
-    background-color: #292d39;
-    color: white;
-
 }
 
 .nav-logo {
-    margin: 10px;
+    padding: 10px;
     margin-left:10em;
+    color: #fff;
+    cursor: pointer;
+    
 }
 
+.nav-logo:hover{
+    border-radius: .2rem;
+    background-color:  rgb(99, 209, 205);
+   
+}
 .nav-logo span {
     color: #444f72;
     padding-left: 1em;
@@ -31,7 +42,6 @@ body {
 
 .nav-logo h1 {
     /* font-family: 'Acme', sans-serif; */
-    color: #ED5276;
     font-family: 'Berkshire Swash', cursive;
     font-size: 2rem;
     font-weight: 200;
@@ -55,66 +65,95 @@ body {
 
 .page{
     min-width: 110px;
+    cursor: pointer;
     padding: .8rem;
 }
 .page p {
+    color: #fff;
     margin: 0px;
     -webkit-transition: padding 1s; /* Safari */
     transition: padding 1s;
 }
 
 .page i{
-margin: auto;
-font-weight: 0;
-font-size: 1rem;
-padding: 4px;
+    color: #fff;
+    margin: auto;
+    font-weight: 0;
+    font-size: 1rem;
+    padding: 4px;
 }
 
 .active{
-    border-radius: .2rem;
-    -webkit-box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
+    /* border-radius: .2rem;
+    -webkit-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2);
+    -moz-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2);
+    box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.2); */
+    
 }
 
 
 .page:hover {
-    background-color: #536088;
-    
-    
+    border-radius: .2rem;
+    background-color:  rgb(99, 209, 205);
+    /* -webkit-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5);
+    -moz-box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5);
+    box-shadow: inset 0px 0px 4px 200px rgba(150, 150, 150, 0.5); */
 
+  
 }
 
 /* Nav Bar Style Ends */
 
-/* Content Page Style Starts */
+/* Home Page Style Starts */
 
-.Content {
-    padding: 50px;
+
+.banner{
+    padding: 2rem;
+    text-align: center;
+    min-height: 350px;
+}
+.bannerText{
+    font-family: 'Acme', sans-serif !important;
+}
+.bannerText h1{
+    padding: 20px;
+    padding-top: 0px;
+}
+.bannerText p{
+    font-size: 20px !important;
 }
 
-.Content-sub {
+.bannerText p span {
+    font-size: 20px;
+    color:#0396A6;
+}
+
+.Home {
+    padding: 20px;
+    min-height: 350px;
+}
+
+.Home-sub {
     text-align: center;
 }
 
-.Content-sub p {
+.Home-sub p {
     font-size: 20px;
     margin: 0px;
-    color: #838486;
 }
 
-.Content-sub p span {
+.Home-sub p span {
     font-size: 30px;
     font-variant: small-caps;
     margin: 0px;
-    color: white;
+    color: #0396A6;
 }
 
 /* Feature Row Style Starts */
 
 .hero{    
-    margin: .5rem;
-    
+    min-height: 350px;
+
 }
 
 .heroPicMain{
@@ -126,8 +165,8 @@ padding: 4px;
 }
 
 .heroPic img {
-    max-height: 30vh;
-    margin: 5rem;
+    max-height: 40vh;
+    margin: 1rem;
 }
 
 .heroContentMain{
@@ -137,77 +176,39 @@ padding: 4px;
 .heroContent{
     padding: 20px;
 }
-.heroText{
-    font-size: 18px;
-
-}
 .heroText h1{
-    color: #ED5276;
-    font-size: 55px;
-    margin: 0px;
+    color: #0396A6;
+    font-size: 40px;
 }
 .heroText h2{
-    margin: 0px;
-    
+    font-size: 28px;
+    font-weight: 700;
 }
+
 .intro-text{
-    font-size: 25px;
-    margin: 0px;
-    color: #292d39 !important;
-    
 }
 .lead{
-    font-size: 25px;
-    color: #536088;
-    
-}
-.heroTag{
-    margin: 8px;
-    margin-left: 0px;
+    color: #0396A6;
 }
 
-.feature {    
-    padding: 3rem;
-    padding-top: 0rem;
-    text-align: center;
-}
-
-.featureText {
-    max-width: 600px;
-    font-size: 20px;
-    color: #838486;
-}
-
-.featureText h1{
-    color: #C0D1C7;
-    margin: 0px;
-}
-
-.featureText p span {
-    color: white;
-    font-variant: small-caps;
-}
-
-
-/* Feature Row Style Ends */
 
 .iconMain {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .iconSub {
-    margin: 15px;
 }
 
 .iconSub i {
-    color: white;
-    font-size: 2rem;
-    margin-right: 50px;
+    color: #0396A6;
+    font-size: 40px;
+    padding: 3px;
 }
 
 .iconSub i:hover {
-    color: #ED5276;
-    margin-right: 50px;
+    color: #19B274;
+    
 }
 
 
@@ -215,18 +216,18 @@ padding: 4px;
 /* Footer page Style Starts */
 
 .footer {
-    background-color: #333745;
+    padding: 5px;
+   
 }
 
 .lastLine {
     text-align: center;
-    margin: .1rem;
 }
 
 .lastLine span {
-    font-size: 0.8em;
+    font-size: 15px;
     font-weight: 500;
-    color: #C0D1C7;
+    color: rgb(255, 255, 255);
     margin-left: 5px;
 }
 
